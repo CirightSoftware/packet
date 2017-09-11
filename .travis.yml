@@ -5,13 +5,12 @@ language: node_js
 node_js:
   - '4.5'
 
-install:
+before_script:
   - npm install -g grunt-cli
   - npm install -g bower
-
-before_script:
+  - echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
   - npm install
-  - bower install
+  - bower install -f
 
 script:
   - grunt build:layout1
