@@ -9236,8 +9236,8 @@ input[type="radio"], input[type="checkbox"] {
   border-color: #86d0e7;
 }
 .btn-info:hover {
-  background-color: #71c8e2 !important;
-  border-color: #71c8e2;
+  background-color: #71c8e3 !important;
+  border-color: #71c8e3;
   color: #ffffff;
 }
 .btn-info:active, .btn-info.active, .btn-info.active:focus, .btn-info:active:focus, .btn-info:active:hover, .btn-info.dropdown-toggle:active:hover {
