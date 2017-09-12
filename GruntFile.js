@@ -9,7 +9,7 @@ module.exports = function(grunt) {
     gtx.config(gruntConfig);
 
     // We need our bower components in order to develop
-	gtx.alias('build:layout1', ['compass:layout1', 'clean:layout1', 'copy:layout1', 'string-replace:layout1', 'concat:layout1', 'cssmin:layout1', 'uglify:layout1']);
+	gtx.alias('build:layout1', ['compass:layout1', 'clean:layout1', 'copy:layout1', 'string-replace:layout1', 'concat:layout1', 'cssmin:layout1', 'uglify:layout1', 'compress:layout1']);
 	gtx.alias('build:layoutrtl1', ['compass:layoutrtl1', 'clean:layoutrtl1', 'copy:layoutrtl1', 'string-replace:layoutrtl1', 'concat:layoutrtl1', 'cssmin:layoutrtl1', 'uglify:layoutrtl1']);
 	gtx.alias('build:layout2', ['compass:layout2', 'clean:layout2', 'copy:layout2', 'string-replace:layout2', 'concat:layout2', 'cssmin:layout2', 'uglify:layout2']);
 	gtx.alias('build:layoutrtl2', ['compass:layoutrtl2', 'clean:layoutrtl2', 'copy:layoutrtl2', 'string-replace:layoutrtl2', 'concat:layoutrtl2', 'cssmin:layoutrtl2', 'uglify:layoutrtl2']);
